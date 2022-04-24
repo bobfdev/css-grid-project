@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+.container1 {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.item1 {
+    background: steelblue;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: skyblue 1px solid;
+}
+
+.container2 {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* repeat will show 3 columns with the exact same width */
+    /* grid-template-columns: 33.3% 33.3% 33.3%; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* fr = fractional units */
+    /* grid-template-columns: 100px 200px 100px; */
+    column-gap: 10px;
+    /* adds space between column like margin left or right would */
+    row-gap: 10px;
+    /* adds space between row like margin top or bottom would */
+    /* gap: 10px */
+    /* adds space between row and column like margin would */
+}
+
+.item2 {
+    background: red;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: lightcoral 1px solid;
+}
+
+.container3 {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+.item3 {
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: lightgreen 1px solid;
+}
