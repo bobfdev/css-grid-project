@@ -57,6 +57,14 @@ body {
     max-width: 960px;
     margin: 100px auto;
     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    /* grid-auto-rows: 200px; */
+    /* grid-auto-rows sets all rows to 200px */
+    /* grid-auto-rows: minmax(100px, auto); */
+    /* minmax sets all rows greater than or equal to min but less than or equal to max */
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .item3 {
