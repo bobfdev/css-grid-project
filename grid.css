@@ -74,3 +74,26 @@ body {
     padding: 20px;
     border: lightgreen 1px solid;
 }
+
+.container4 {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 10px;
+    align-items: start;
+    /* align-items: center;
+    align-items: end; */
+    /* justify-content: start;
+    justify-content: center; */
+    justify-content: end;
+}
+
+.item4 {
+    background: teal;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: lightseagreen 1px solid;
+}
