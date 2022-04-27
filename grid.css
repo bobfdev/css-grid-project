@@ -97,3 +97,28 @@ body {
     padding: 20px;
     border: lightseagreen 1px solid;
 }
+
+.container5 {
+    max-width: 960px;
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.item5 {
+    background: darkkhaki;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border: lightgoldenrodyellow 1px solid;
+}
+
+.item5:nth-of-type(3) {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+}
