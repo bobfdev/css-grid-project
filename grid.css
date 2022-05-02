@@ -45,6 +45,12 @@ body {
     /* adds space between row and column like margin would */
 }
 
+@media (max-width: 500px) {
+    .container2 {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+}
+
 .item2 {
     background: red;
     color: #fff;
